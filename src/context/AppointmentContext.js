@@ -14,9 +14,6 @@ export const AppointmentProvider = ({ children }) => {
     { id: 1, name: 'Dr. John Doe', specialization: 'Cardiologist', experience: '10 years', clinic: 'Clinic A, Bengaluru' },
     { id: 2, name: 'Dr. Jane Smith', specialization: 'Neurologist', experience: '8 years', clinic: 'Clinic B, Bengaluru' },
     { id: 3, name: 'Dr. Emily Lee', specialization: 'Pediatrician', experience: '5 years', clinic: 'Clinic C, Bengaluru' },
-    { id: 3, name: 'Dr. Zack Doe', specialization: 'Neurologist', experience: '9 years', clinic: 'Clinic D, Bengaluru' },
-    { id: 3, name: 'Dr. A.k Lee', specialization: 'Pediatrician', experience: '12 years', clinic: 'Clinic E, Bengaluru' },
-    { id: 3, name: 'Dr. Smith Doe', specialization: 'Cardiologist', experience: '7 years', clinic: 'Clinic F, Bengaluru' },
   ];
 
   useEffect(() => {
